@@ -31,7 +31,7 @@ function deleteLast() {
 
 function deleteAll() {
     let container = document.getElementById('resultArea');
-    container.innerHTML = container.innerHTML.slice(0, -1000000);
+    container.innerHTML = '';
 }
 
 function Res() {
